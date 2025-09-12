@@ -285,29 +285,153 @@ export default {
 }
 
 @media (max-width: 768px) {
+  .contactMe--mainContent {
+    width: 95%;
+    margin-bottom: 4rem;
+  }
+
   .contactMe {
     padding: 2rem 1.5rem;
+    gap: 2rem;
   }
-  
+
   .contactMe--main__bigText {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    text-align: center;
   }
-  
+
+  .main-text-wrapper {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
   .contact-cards {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0.5rem;
   }
-  
+
+  .contact-card {
+    padding: 1.8rem;
+    transform: none;
+  }
+
+  .contact-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .contact-card ion-icon {
+    font-size: 2.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .contact-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact-card p {
+    font-size: 1rem;
+  }
+
+  .contactMe--descriptionText {
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 0 1rem;
+    line-height: 1.6;
+  }
+
+  .social-links {
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .social-links a {
+    font-size: 1.8rem;
+  }
+
+  .contactMe--disclamer {
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactMe--mainContent {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .contactMe {
+    padding: 1.5rem 1rem;
+    gap: 1.5rem;
+    border-radius: 0.8rem;
+  }
+
+  .contactMe--main__bigText {
+    font-size: 1.8rem;
+  }
+
+  .contact-card {
+    padding: 1.5rem;
+  }
+
+  .contact-card ion-icon {
+    font-size: 2rem;
+  }
+
+  .contact-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact-card p {
+    font-size: 0.95rem;
+  }
+
   .contactMe--descriptionText {
     font-size: 1rem;
-    width: 100%;
+    padding: 0 0.5rem;
   }
-  
+
   .social-links {
     gap: 1.5rem;
   }
-  
+
+  .social-links a {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .contactMe--main__bigText {
+    font-size: 1.6rem;
+  }
+
+  .contact-card {
+    padding: 1.2rem;
+  }
+
+  .contact-card ion-icon {
+    font-size: 1.8rem;
+  }
+
+  .contact-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .contact-card p {
+    font-size: 0.9rem;
+  }
+
+  .contactMe--descriptionText {
+    font-size: 0.95rem;
+  }
+
   .social-links a {
     font-size: 1.5rem;
+  }
+
+  .contactMe--disclamer {
+    font-size: 0.8rem;
   }
 }
 

@@ -33,7 +33,7 @@ export default {
     }
   },
   mounted() {
-    document.title = 'DavidsDvm | Web Developer | @DavidsDvm'
+    document.title = 'Moumen | Web Developer | @MoumenMHT'
   }
 }
 </script>
