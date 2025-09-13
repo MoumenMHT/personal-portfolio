@@ -30,10 +30,18 @@ export default {
       const avaliableSocialLink = this.socialMedia[element];
       window.open(avaliableSocialLink, '_blank').focus();
     },
-    ScrollToSection(element){
-      const containerScroll = this.$el.parentElement.querySelector(element);
-      containerScroll.scrollIntoView({behavior: 'smooth'});
+    ScrollToSection(element) {
+      // ensure element is treated as an ID selector
+      const selector = element.startsWith('#') ? element : `#${element}`;
+      const containerScroll = this.$el.querySelector(selector);
+
+      if (containerScroll) {
+        containerScroll.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        console.warn(`Section with selector "${selector}" not found`);
+      }
     }
+
   }
 }
 </script>
