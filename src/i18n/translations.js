@@ -2,7 +2,7 @@ export const messages = {
   en: {
     home: {
       welcomeOne: 'Hello!,',
-      welcomeTwo: "I'm ",
+      welcomeTwo: "I\'m ",
       welcomeThree: 'Abdelmoumen',
       welcomeFive: 'you can call me Moumen',       
       welcomeFour: 'Software Developer',
@@ -15,7 +15,7 @@ export const messages = {
         helpText: 'Help: List of available commands',
         about: {
           one: 'Hi There!',
-          two: 'I\'m Abdelmoumen, better known as \'Moumen\' I am more than a robot coding 🤖, I am a real human trying to learn new things and develop incredible projects with ❤️ meeting incredible people on the wayrocket',
+          two: 'I\'m Abdelmoumen, better known as \'Moumen\' I am more than a robot coding 🤖, I am a real human trying to learn new things and develop incredible projects with ❤️ meeting incredible people on the way 🚀',
           three: 'Feel free to follow me on GitHub @MoumenMHT - see contacts page.'
         }
       },
@@ -23,9 +23,8 @@ export const messages = {
     },
     aboutMe: {
       title: 'About Me',
-      descriptionOne: `Hi, I’m Abdelmoumen Mechta, a dedicated Software Engineer and Full-Stack Developer from Algeria. I specialize in building web and desktop applications using PHP, Laravel, C#, .NET, and JavaScript.
-         Over the past few years, I’ve gained experience working on a variety of projects such as e-commerce platforms, travel agency websites, enterprise systems, and giveaway applications, which allowed me to strengthen both my frontend and backend development skills.`,
-      descriptionTwo: `I enjoy turning ideas into practical solutions that are clean, scalable, and user-friendly, and I take pride in writing code that’s efficient and maintainable. I’m always learning and currently focusing on improving my expertise with modern frameworks like Laravel to stay ahead in the fast-moving tech world.`,
+      descriptionOne: "Hi, I’m Abdelmoumen Mechta, a dedicated Software Engineer and Full-Stack Developer from Algeria. I specialize in building web and desktop applications using PHP, Laravel, C#, .NET, and JavaScript.\nOver the past few years, I’ve gained experience working on a variety of projects such as e-commerce platforms, travel agency websites, enterprise systems, and giveaway applications, which allowed me to strengthen both my frontend and backend development skills.",
+      descriptionTwo: "I enjoy turning ideas into practical solutions that are clean, scalable, and user-friendly, and I take pride in writing code that’s efficient and maintainable. I’m always learning and currently focusing on improving my expertise with modern frameworks like Laravel to stay ahead in the fast-moving tech world.",
     },
     contactMe: {
       title: 'Contact Me',
@@ -34,9 +33,7 @@ export const messages = {
       emailDesc: 'moumenabdou482@gmail.com',
       linkedinDesc: 'Mechta Abdelmoumen',
       githubDesc: 'MoumenMHT',
-      description: `My inbox is always open to new collaboration or projects
-        press the    button and send me a message, I'll wait
-        for your message.`,
+      description: "My inbox is always open to new collaboration or projects press the    button and send me a message, I'll wait for your message.",
       buttonText: 'Contact Me',
       disclaimer: 'Made and designed with ❤️ by Moumen'
     },
@@ -84,17 +81,17 @@ export const messages = {
         first: {
           title: 'Sliding puzzle game',
           description:
-            `I developed a slide puzzle game in Java featuring game state saving and a highest score tracking system. The project focused on implementing core game logic, ensuring smooth user interaction, and providing persistence so players can resume progress while competing for top scores."`,
+            "I developed a slide puzzle game in Java featuring game state saving and a highest score tracking system. The project focused on implementing core game logic, ensuring smooth user interaction, and providing persistence so players can resume progress while competing for top scores.",
         },
         second: {
           title: '7akibati',
           description:
-            `I developed an e-commerce website for a brand specializing in selling bags. The project was built using PHP and JavaScript, where I implemented full CRUD functionality for product management, designed user-friendly interfaces, and integrated backend systems to streamline store operations and improve the customer experience.  `
+            "I developed an e-commerce website for a brand specializing in selling bags. The project was built using PHP and JavaScript, where I implemented full CRUD functionality for product management, designed user-friendly interfaces, and integrated backend systems to streamline store operations and improve the customer experience.  "
         },
         third: {
           title: 'Yumzo Food',
           description:
-            `As part of a team, I contributed to the development of a full-stack food delivery platform built with a microservices architecture. The project used React for the frontend and Node.js with JWT authentication for the backend. My main role was backend development, where I implemented core features such as authentication and order management. On the frontend, I focused on the delivery phase and the notification system, ensuring real-time updates and smooth user interaction.`
+            "As part of a team, I contributed to the development of a full-stack food delivery platform built with a microservices architecture. The project used React for the frontend and Node.js with JWT authentication for the backend. My main role was backend development, where I implemented core features such as authentication and order management. On the frontend, I focused on the delivery phase and the notification system, ensuring real-time updates and smooth user interaction."
         }
       }
     }
@@ -123,20 +120,17 @@ export const messages = {
     },
     aboutMe: {
       title: 'À Propos de Moi',
-      descriptionOne: `Bonjour, je suis Abdelmoumen Mechta, un Ingénieur Logiciel et Développeur Full-Stack passionné d'Algérie. Je me spécialise dans la création d'applications web et bureau utilisant PHP, Laravel, C#, .NET, et JavaScript.
-         Au cours des dernières années, j'ai acquis de l'expérience en travaillant sur divers projets tels que des plateformes e-commerce, des sites web d'agences de voyage, des systèmes d'entreprise et des applications de cadeaux, ce qui m'a permis de renforcer mes compétences en développement frontend et backend.`,
-      descriptionTwo: `J'aime transformer des idées en solutions pratiques qui sont propres, évolutives et conviviales, et je suis fier d'écrire du code efficace et maintenable. J'apprends constamment et me concentre actuellement sur l'amélioration de mon expertise avec des frameworks modernes comme Laravel pour rester en avance dans le monde technologique en constante évolution.`,
+      descriptionOne: "Bonjour, je suis Abdelmoumen Mechta, un Ingénieur Logiciel et Développeur Full-Stack passionné d'Algérie. Je me spécialise dans la création d'applications web et bureau utilisant PHP, Laravel, C#, .NET, et JavaScript. Au cours des dernières années, j'ai acquis de l'expérience en travaillant sur divers projets tels que des plateformes e-commerce, des sites web d'agences de voyage, des systèmes d'entreprise et des applications de cadeaux, ce qui m'a permis de renforcer mes compétences en développement frontend et backend.",
+      descriptionTwo: "J'aime transformer des idées en solutions pratiques qui sont propres, évolutives et conviviales, et je suis fier d'écrire du code efficace et maintenable. J'apprends constamment et me concentre actuellement sur l'amélioration de mon expertise avec des frameworks modernes comme Laravel pour rester en avance dans le monde technologique en constante évolution.",
     },
     contactMe: {
       title: 'Me Contacter',
       bigtextOne: 'Prenez',
       bigtextTwo: 'Contact',
-      emailDesc: 'moumenabdou482@gmail.com',
+      emailDesc  : 'moumenabdou482@gmail.com',
       linkedinDesc: 'Mechta Abdelmoumen',
       githubDesc: 'MoumenMHT',
-      description: `Ma boîte de réception est toujours ouverte aux nouvelles collaborations ou projets
-        appuyez sur le bouton    et envoyez-moi un message, j'attendrai
-        votre message.`,
+      description: "Ma boîte de réception est toujours ouverte aux nouvelles collaborations ou projets appuyez sur le bouton    et envoyez-moi un message, j'attendrai votre message.",
       buttonText: 'Me Contacter',
       disclaimer: 'Conçu et développé avec ❤️ par Moumen'
     },
@@ -182,17 +176,17 @@ export const messages = {
         first: {
           title: 'Jeu de puzzle coulissant',
           description:
-            `J'ai développé un jeu de puzzle coulissant en Java avec un système de sauvegarde d'état de jeu et de suivi des meilleurs scores. Le projet s'est concentré sur l'implémentation de la logique de base du jeu, assurant une interaction utilisateur fluide et fournissant une persistance pour que les joueurs puissent reprendre leur progression tout en concourant pour les meilleurs scores."`
+            "J'ai développé un jeu de puzzle coulissant en Java avec un système de sauvegarde d'état de jeu et de suivi des meilleurs scores. Le projet s'est concentré sur l'implémentation de la logique de base du jeu, assurant une interaction utilisateur fluide et fournissant une persistance pour que les joueurs puissent reprendre leur progression tout en concourant pour les meilleurs scores."
         },
         second: {
           title: '7akibati',
           description:
-            `J'ai développé un site e-commerce pour une marque spécialisée dans la vente de sacs. Le projet a été construit en utilisant PHP et JavaScript, où j'ai implémenté une fonctionnalité CRUD complète pour la gestion des produits, conçu des interfaces conviviales et intégré des systèmes backend pour rationaliser les opérations de la boutique et améliorer l'expérience client.`
+            "J'ai développé un site e-commerce pour une marque spécialisée dans la vente de sacs. Le projet a été construit en utilisant PHP et JavaScript, où j'ai implémenté une fonctionnalité CRUD complète pour la gestion des produits, conçu des interfaces conviviales et intégré des systèmes backend pour rationaliser les opérations de la boutique et améliorer l'expérience client."
         },
         third: {
           title: 'Yumzo Food',
           description:
-            `En tant que membre d'une équipe, j'ai contribué au développement d'une plateforme de livraison de nourriture full-stack construite avec une architecture microservices. Le projet utilisait React pour le frontend et Node.js avec authentification JWT pour le backend. Mon rôle principal était le développement backend, où j'ai implémenté des fonctionnalités essentielles telles que l'authentification et la gestion des commandes. Sur le frontend, je me suis concentré sur la phase de livraison et le système de notification, assurant des mises à jour en temps réel et une interaction utilisateur fluide.`
+            "En tant que membre d'une équipe, j'ai contribué au développement d'une plateforme de livraison de nourriture full-stack construite avec une architecture microservices. Le projet utilisait React pour le frontend et Node.js avec authentification JWT pour le backend. Mon rôle principal était le développement backend, où j'ai implémenté des fonctionnalités essentielles telles que l'authentification et la gestion des commandes. Sur le frontend, je me suis concentré sur la phase de livraison et le système de notification, assurant des mises à jour en temps réel et une interaction utilisateur fluide."
         }
       }
     }
