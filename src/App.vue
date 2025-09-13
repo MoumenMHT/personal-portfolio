@@ -30,9 +30,15 @@ export default {
       const avaliableSocialLink = this.socialMedia[element];
       window.open(avaliableSocialLink, '_blank').focus();
     },
-    ScrollToSection(element){
-      const containerScroll = this.$el.parentElement.querySelector(element);
-      containerScroll.scrollIntoView({behavior: 'smooth'});
+    ScrollToSection(element) {
+      this.$nextTick(() => {
+        const containerScroll = document.querySelector(element);
+        if (containerScroll) {
+          containerScroll.scrollIntoView({ behavior: 'smooth' });
+        } else {
+          console.warn(`Section ${element} not found`);
+        }
+      });
     }
   }
 }

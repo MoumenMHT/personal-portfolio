@@ -93,6 +93,8 @@ export default {
       },
       scrollSection(element) {
         const sectionNameID = '#' + this.sectionsNames[element];
+        console.log(sectionNameID);
+        
         this.$emit('scrollSection', sectionNameID);
         if (window.innerWidth <= 680) {
           this.isNavVisible = false;
