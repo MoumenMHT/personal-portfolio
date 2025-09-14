@@ -78,19 +78,22 @@ export default {
           date: this.$t('experience.jobs.first.date'),
           company: this.$t('experience.jobs.first.company'),
           description: this.$t('experience.jobs.first.description'),
-          link: this.$t('experience.jobs.first.link'),
         },
         {
           title: this.$t('experience.jobs.second.title'),
           date: this.$t('experience.jobs.second.date'),
           company: this.$t('experience.jobs.second.company'),
           description: this.$t('experience.jobs.second.description'),
+          link: this.$t('experience.jobs.second.link'),
+
         },
         {
           title: this.$t('experience.jobs.third.title'),
           date: this.$t('experience.jobs.third.date'),
           company: this.$t('experience.jobs.third.company'),
           description: this.$t('experience.jobs.third.description'),
+          link: this.$t('experience.jobs.third.link'),
+
         },
         {
           title: this.$t('experience.jobs.fourth.title'),
