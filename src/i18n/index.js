@@ -43,6 +43,8 @@ export const initializeI18n = () => {
     const originalT = i18n.global.t;
     i18n.global.t = function(key, ...args) {
       console.log('[i18n] Requested key:', key);
+      console.log(originalT.call(this, key, ...args));
+      
       return originalT.call(this, key, ...args);
     };
     return i18n;

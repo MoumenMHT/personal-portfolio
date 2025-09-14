@@ -16,7 +16,7 @@ export const messages = {
         about: {
           one: 'Hi There!',
           two: 'I\'m Abdelmoumen, better known as \'Moumen\' I am more than a robot coding 🤖, I am a real human trying to learn new things and develop incredible projects with ❤️ meeting incredible people on the way 🚀',
-          three: 'Feel free to follow me on GitHub @MoumenMHT - see contacts page.'
+          three: 'Feel free to follow me on GitHub MoumenMHT - see contacts page.'
         }
       },
       languageNotice: "You can always change the language of the site"

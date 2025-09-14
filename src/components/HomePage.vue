@@ -212,8 +212,10 @@ export default {
           return (allText)
 
         case 'about':
+          console.log('here');
           
           var aboutMeArray = [`>${this.$t('aboutMe.title')}:`,
+          
             this.$t('home.terminal.about.one'),
             this.$t('home.terminal.about.two'),
             this.$t('home.terminal.about.three')];
