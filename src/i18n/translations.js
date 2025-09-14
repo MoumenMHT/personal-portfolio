@@ -78,11 +78,7 @@ export const messages = {
     projects: {
       title: 'Projects',
       projects: {
-        first: {
-          title: 'Sliding puzzle game',
-          description:
-            "I developed a slide puzzle game in Java featuring game state saving and a highest score tracking system. The project focused on implementing core game logic, ensuring smooth user interaction, and providing persistence so players can resume progress while competing for top scores.",
-        },
+        
         second: {
           title: '7akibati',
           description:
@@ -113,7 +109,7 @@ export const messages = {
         about: {
           one: 'Salut!',
           two: 'Je suis Abdelmoumen, mieux connu sous le nom de \'Moumen\'. Je suis plus qu\'un robot qui code 🤖, je suis un humain qui essaie d\'apprendre de nouvelles choses et de développer des projets incroyables avec ❤️ en rencontrant des personnes extraordinaires en chemin',
-          three: 'N\'hésitez pas à me suivre sur GitHub @MoumenMHT - voir la page des contacts.'
+          three: 'N\'hésitez pas à me suivre sur GitHub MoumenMHT - voir la page des contacts.'
         }
       },
       languageNotice: " Vous pouvez toujours changer la langue du site"

@@ -32,7 +32,7 @@
         leave-active-class="animate__animated animate__fadeOut">
         <div v-if="projectsRight" class="Projects--contentRight">
           <div class="Projects--contentRight__main">
-              <p class="Projects--contentRight__main-text" style="direction: ltr;">{{ $t('projects.projects.first.title') }}</p>
+              <p class="Projects--contentRight__main-text" style="direction: ltr;">{{ $t('projects.projects.third.title') }}</p>
               <div class="Projects--contentRight__main-description" style="direction: ltr;">
                 <span>
                   {{ $t('projects.projects.third.description') }}
@@ -40,7 +40,7 @@
               </div>
             <div class="Projects--contentRight__main-social">
 
-              <ion-icon @click="projectClick('githubSlidingPuzzle')" name="logo-octocat"></ion-icon>
+              <ion-icon @click="projectClick('githubYumzo')" name="logo-octocat"></ion-icon>
             </div>
           </div>
           <div class="d-flex justify-content-end Projects--contentLeft__image Projects--Floowy__image">
