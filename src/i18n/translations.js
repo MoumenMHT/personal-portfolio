@@ -19,7 +19,7 @@ export const messages = {
           three: 'Feel free to follow me on GitHub @MoumenMHT - see contacts page.'
         }
       },
-      languageNotice: "⇐ You can always change the language of the site"
+      languageNotice: "You can always change the language of the site"
     },
     aboutMe: {
       title: 'About Me',
@@ -116,7 +116,7 @@ export const messages = {
           three: 'N\'hésitez pas à me suivre sur GitHub @MoumenMHT - voir la page des contacts.'
         }
       },
-      languageNotice: "⇐ Vous pouvez toujours changer la langue du site"
+      languageNotice: " Vous pouvez toujours changer la langue du site"
     },
     aboutMe: {
       title: 'À Propos de Moi',
