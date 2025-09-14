@@ -1,29 +1,13 @@
 <template>
   <div class="mainContentContainer">
-    <section id="home">
-      <HomePage @actualActiveNav="aboutScroll($event)" class="mb-5"/>
-    </section>
-
-    <section id="about">
-      <AboutMe @actualActiveNav="aboutScroll($event)" class="mt-5 mb-5"/>
-    </section>
-
-    <section id="experience">
-      <ExperienceList @actualActiveNav="aboutScroll($event)" class="mt-5 mb-5"/>
-    </section>
-
-    <section id="projects">
-      <Projects @actualActiveNav="aboutScroll($event)" class="mt-5 mb-5"/>
-    </section>
-
-    <section id="contact">
-      <ContactMe @actualActiveNav="aboutScroll($event)" class="mt-5" />
-    </section>
-
+    <HomePage @actualActiveNav="aboutScroll($event)" class="mb-5"/>
+    <AboutMe @actualActiveNav="aboutScroll($event)" class="mt-5 mb-5"/>
+    <ExperienceList @actualActiveNav="aboutScroll($event)" class="mt-5 mb-5"/>
+    <Projects @actualActiveNav="aboutScroll($event)" class="mt-5 mb-5"/>
+    <ContactMe @actualActiveNav="aboutScroll($event)" class="mt-5" />
     <LanguageNotice />
   </div>
 </template>
-
 
 <script>
 import HomePage from './HomePage'

@@ -24,6 +24,8 @@ export default {
   },
   methods: {
     getActualScroll(element) {
+      console.log(element);
+      
       this.activeIndex = element;
     },
     socialMediaClick(element){
