@@ -20,7 +20,7 @@ export const getBrowserLanguage = () => {
  */
 export const getDefaultLanguage = () => {
   const browserLanguage = getBrowserLanguage()
-  const availableLanguages = ['en', 'es']
+    const availableLanguages = ['en', 'fr']
   return availableLanguages.includes(browserLanguage) ? browserLanguage : 'en'
 }
 
@@ -30,7 +30,7 @@ export const getDefaultLanguage = () => {
  */
 export const initializeI18n = () => {
   try {
-    return createI18n({
+    const i18n = createI18n({
       globalInjection: true,
       legacy: false, // Enable Composition API mode
       locale: getDefaultLanguage(),
@@ -38,7 +38,14 @@ export const initializeI18n = () => {
       warnHtmlMessage: false,
       warnHtmlInMessage: "off",
       messages
-    })
+    });
+    // Debug: log every translation key requested
+    const originalT = i18n.global.t;
+    i18n.global.t = function(key, ...args) {
+      console.log('[i18n] Requested key:', key);
+      return originalT.call(this, key, ...args);
+    };
+    return i18n;
   } catch (error) {
     console.error('Failed to initialize i18n:', error)
     throw error

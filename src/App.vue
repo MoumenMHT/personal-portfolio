@@ -1,11 +1,13 @@
 <template>
-  <LateralBar @scrollSection="ScrollToSection($event)" @socialMediaClick="socialMediaClick($event)" :navActive="activeIndex" />
   <MainContent @actuallySection="getActualScroll($event)" />
+
+  <LateralBar @scrollSection="ScrollToSection($event)" @socialMediaClick="socialMediaClick($event)" :navActive="activeIndex" />
 </template>
 
 <script>
-import LateralBar from './components/LateralBar'
 import MainContent from './components/MainContent'
+
+import LateralBar from './components/LateralBar'
 
 export default {
   name: 'App',

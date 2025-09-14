@@ -93,7 +93,7 @@ export default {
           {
             icon: 'mail-outline',
             title: 'Email',
-            description: this.$t('contactMe.emailDesc'),
+            description: 'moumenabdou482@gmail.com', // Hardcoded for testing
             action: 'email'
           },
           {
@@ -108,7 +108,6 @@ export default {
             description: this.$t('contactMe.githubDesc'),
             action: 'github'
           }
-          
         ],
         
       }
